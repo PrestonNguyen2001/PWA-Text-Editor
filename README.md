@@ -92,12 +92,26 @@ THEN I should have proper build scripts for a webpack application
 
 To install this application:
 
-1. Clone the Repository: `git clone https://github.com/PrestonNguyen2001/PWA-Text-Editor.git`
-2. Navigate to the Root Directory: `cd PWA-Text-Editor`
-3. Install Dependencies: `npm install`
-4. Build the Client: `npm run build`
-5. Start the Application: `npm run start:dev`
-
+1. Clone the Repository:
+```markdown
+git clone https://github.com/PrestonNguyen2001/PWA-Text-Editor.git
+```
+2. Navigate to the Root Directory:
+```markdown
+cd PWA-Text-Editor
+```
+3. Install Dependencies:
+```markdown
+npm install
+```
+4. Build the Client:
+```markdown
+npm run build
+```
+5. Start the Application:
+```markdown
+npm run start:dev
+```
 ## Deployment
 
 The application is deployed on Render. You can access the live application [here](https://pwa-text-editor-kpd5.onrender.com)
