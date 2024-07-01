@@ -1,5 +1,22 @@
 # PWA-Text-Editor
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
+## Table of Contents
+
+- [Description](#description)
+    - [User Story](#user-story)
+    - [Acceptance Criteria](#acceptance-criteria)
+- [Requirements and Technologies Used](#requirements-and-technologies-used)
+- [Installation](#installation)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Description
 
 This project is a Progressive Web Application (PWA) text editor that allows users to create notes or code snippets with or without an internet connection. This application utilizes IndexedDB for data persistence, ensuring that content is saved even when offline. The application also features a service worker and manifest file for installation as a standalone application on desktop or mobile devices.
@@ -42,17 +59,34 @@ WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
 ```
 
-## Table of Contents
+## Requirements and Technologies Used
 
-- [Installation](#installation)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Questions](#questions)
+### Requirements
+
+- Node.js
+- npm
+- Browser with IndexedDB support
+
+### Technologies Used
+
+- **IndexedDB**: For storing and retrieving data.
+- **Webpack**: For bundling JavaScript files.
+- **Babel**: For using modern JavaScript features.
+- **Workbox**: For creating service workers and caching static assets.
+- **idb**: A lightweight wrapper around the IndexedDB API.
+- **Nodemon**: For automatically restarting the server during development when file changes in the directory are detected.
+- **Express.js**: For setting up a backend server to serve the client files and handle API requests.
+- **Concurrently**: For running multiple commands concurrently, such as starting both the server and client-side application during development.
+
+![IndexedDB](https://img.shields.io/badge/IndexedDB-FFCA28?style=for-the-badge&logo=indexeddb&logoColor=black)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Babel](https://img.shields.io/badge/babel-%23323330.svg?style=for-the-badge&logo=babel&logoColor=%23F9DC3E)
+![Workbox](https://img.shields.io/badge/Workbox-3C873A?style=for-the-badge&logo=workbox&logoColor=white)
+![idb](https://img.shields.io/badge/idb-3178C6?style=for-the-badge&logo=indexeddb&logoColor=white)
+![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Concurrently](https://img.shields.io/badge/Concurrently-000000?style=for-the-badge&logo=concurrently&logoColor=white)
+
 
 ## Installation
 
@@ -101,14 +135,6 @@ The following image shows the application's IndexedDB storage:
 - **Installable PWA**: Can be installed as a desktop application.
 - **Offline Functionality**: Works without an internet connection.
 
-## Technologies Used
-
-- **IndexedDB**: For storing and retrieving data.
-- **Webpack**: For bundling JavaScript files.
-- **Babel**: For using modern JavaScript features.
-- **Workbox**: For creating service workers and caching static assets.
-- **idb**: A lightweight wrapper around the IndexedDB API.
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
@@ -117,7 +143,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Questions
+## Contact
 
 - If you have any questions, feel free to reach out via: <https://github.com/PrestonNguyen2001>
 - For additional questions or support, contact me at <prestonnguyen2001@gmail.com>
